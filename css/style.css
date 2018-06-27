@@ -1,0 +1,138 @@
+body{
+	margin:0;
+	padding: 0;
+}
+/*HEADER*/
+.container{
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+.header{
+	width:100%;
+	background-color: #81BEF7;
+	height: 5rem;
+}
+
+.header__logo--image{
+
+	position: absolute;
+	width: 6.8rem;
+	display: block;
+
+}
+
+.header__title{
+	position: relative;
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-left: 6rem;
+	padding-top: 3.5rem;
+	
+}
+/*/HEADER*/
+
+/*SIDEBAR*/
+
+.sidebar{
+
+	background-color: blue;
+	margin-top: 0;
+	padding-top: 1px;
+}
+
+.form__profile{
+	width: 20rem;
+	margin: 3rem;
+	display: block;
+	padding: 3rem;
+	border: solid 3px grey;
+
+}
+
+.form__file{
+	width: 10rem;
+	margin: 1rem  0 0 10rem;
+	display: block;
+}
+
+.form__text{
+	width: 55%;
+	margin: 1rem 0 0 10rem;
+	display: block;
+}
+
+.form__button{
+	width: 10rem;
+	margin: 1rem  0 5rem 10rem;
+	display: block;
+
+}
+
+.main{
+	
+	background-color: green;
+	margin-top: 0;
+	padding-top: 1px;
+
+}
+
+.box__profile{
+	
+	width: 96%;
+	position: absolute;
+	border:solid 3px black;
+	margin-top: 3rem;
+}
+
+.box__avatar{
+
+	position: relative;
+	margin: 2rem 2rem 2rem 2rem ;
+	width: 5rem;
+	border-radius: 50%;
+	border:solid 2px black;
+
+}
+
+.box__name{
+	position: relative;
+	float: left;
+	font-size: 2rem;
+	color:white;
+}
+
+.box__posteo{
+	display: block;
+	float: left;
+}
+
+.box__heart{
+	display: block;
+	float: left;
+	margin-left: 5rem;
+	font-size: 2rem;
+}
+
+.box__trash{
+	display: block;
+	float: right;
+	margin-left: 5rem;
+	font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
