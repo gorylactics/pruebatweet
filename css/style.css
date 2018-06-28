@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding: 0;
+	background-color: #151515;
 }
 /*HEADER*/
 .container{
@@ -9,26 +10,34 @@ body{
 	
 }
 .header{
-	width:100%;
-	background-color: #81BEF7;
-	height: 5rem;
+	max-width:120%;
+	height: 8rem;
+	border-bottom: solid 0.5rem #FCB900;
+
+
 }
 
 .header__logo--image{
 
 	position: absolute;
 	width: 6.8rem;
-	display: block;
+	display: inline-block;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	
 
 }
 
 .header__title{
-	position: relative;
-	font-size: 1.2rem;
-	color: #FFFFFF;
+	position: absolute;
+	font-size: 2rem;
+	color: #FCB900;
 	text-transform: uppercase;
-	margin-left: 6rem;
-	padding-top: 3.5rem;
+	margin-left: 6.3rem;
+	padding-top: 5.7rem;
+	font-family: 'Shrikhand', cursive;
+	/*-webkit-text-stroke: 1px #151515;*/
+
 	
 }
 /*/HEADER*/
@@ -37,7 +46,7 @@ body{
 
 .sidebar{
 
-	background-color: blue;
+	/*background-color: blue;*/
 	margin-top: 0;
 	padding-top: 1px;
 }
@@ -47,7 +56,8 @@ body{
 	margin: 3rem;
 	display: block;
 	padding: 3rem;
-	border: solid 3px grey;
+	border: solid 9px #595352;
+	
 
 }
 
@@ -55,6 +65,7 @@ body{
 	width: 10rem;
 	margin: 1rem  0 0 10rem;
 	display: block;
+	border: solid 9px #595352;
 }
 
 .form__text{
@@ -72,7 +83,7 @@ body{
 
 .main{
 	
-	background-color: green;
+	/*background-color: green;*/
 	margin-top: 0;
 	padding-top: 1px;
 
@@ -100,12 +111,15 @@ body{
 	position: relative;
 	float: left;
 	font-size: 2rem;
-	color:white;
+	color:#FCB900;
+	font-family: 'Shrikhand', cursive;
 }
 
 .box__posteo{
 	display: block;
 	float: left;
+	font-family: 'Comfortaa', cursive; 
+	font-size: 1.3rem;
 }
 
 .box__heart{
