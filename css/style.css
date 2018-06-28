@@ -103,49 +103,63 @@ body{
 
 .box__profile{
 	
-	width: 96%;
+	width: 90%;
 	position: absolute;
-	border:solid 3px black;
-	margin-top: 3rem;
+	margin-top: 1rem;
+	
 }
 
 .box__avatar{
 
-	position: relative;
-	margin: 2rem 0 0 2rem ;
-	width: 4rem;
-	/*border-radius: 50%;*/
-	border:solid 2px black;
+	margin-top:2rem;
+	width: 6rem;
+	
+	
 
 }
 
 .box__name{
-	position: relative;
-	float: left;
-	font-size: 2rem;
+	text-align: center;
+	font-size: 1.8rem;
 	color:#FCB900;
 	font-family: 'Shrikhand', cursive;
+
+	
+
 }
 
 .box__posteo{
-	display: block;
-	float: left;
+	color:#8D8884;
+	text-align: center;
+	position: relative;
+	display: inline-block;
 	font-family: 'Comfortaa', cursive; 
 	font-size: 1.3rem;
+	background-color: #363231;
+	padding-top: 0.7rem;  
+	padding-bottom: 0.7rem;   
+	
+
 }
 
 .box__heart{
 	display: block;
 	float: left;
-	margin-left: 5rem;
-	font-size: 2rem;
+	font-size: 1.15rem;
+	margin-top: 0.1rem;
+	margin-left: 18rem;
+	padding-right: 0;
+	color: #464140;
+	
 }
 
 .box__trash{
+	padding-left: 2rem;
 	display: block;
-	float: right;
-	margin-left: 5rem;
-	font-size: 2rem;
+	float: left;
+	font-size: 1.15rem;
+	color: #464140;
+	
 }
 
 /*/MAIN--(DERECHA)*/
