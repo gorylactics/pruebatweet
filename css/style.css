@@ -52,30 +52,41 @@ body{
 .form__profile{
 	
 	width: 16rem;
-	margin: 3rem 0 0 3rem;
+	margin: 1.5rem 0 0 3rem;
 	display: block;
 	padding: 3rem;
 	border: solid 9px #595352;
+	background-color: #9F9A96;
 	
 }
 
 .form__file{
-	width: 33.2%;
-	margin-left: 27.2%;
-	border: solid 5px #595352
+	width: 38.5%;
+	margin-left: 9.5%;
+	border: solid 5px #595352;
+	font-family: 'Shrikhand', cursive;
+	color:#151515;
 
 }
 
 .form__text{
-	width: 55%;
-	margin: 1rem 0 0 10rem;
-	display: block;
+	width: 70%;
+	height: 90px;
+	border: solid 5px #595352;
+	margin-top: 1.5rem ;
+	margin-left: 10%;
+	
 }
 
 .form__button{
-	width: 10rem;
-	margin: 1rem  0 5rem 10rem;
-	display: block;
+	width: 22.1rem;
+	border: solid 5px #595352;
+	margin-left: 3.1rem;
+	color:#151515;
+	background-color: #595352;
+	font-family: 'Shrikhand', cursive;
+	font-size: 1.3rem;
+	
 
 }
 /*/SIDEBAR--(izquierda)*/
