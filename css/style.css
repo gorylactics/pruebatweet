@@ -156,6 +156,10 @@ body{
 	
 }
 
+.box__heart--red{
+	color: red;	
+}
+
 .box__trash{
 	padding-left: 2rem;
 	display: block;

@@ -15,113 +15,80 @@
 
 <body>
 
-<!-- HEADER -->
+	<!-- HEADER -->
 
 	<div class="header fixed-top">
-			<div class="header__logo">
-				<img src="img/rrss/monky.png" class="header__logo--image">
-				<h1 class="header__title">monkytweet</h1>
-			</div>
+		<div class="header__logo">
+			<img src="img/rrss/monky.png" class="header__logo--image">
+			<h1 class="header__title">monkytweet</h1>
 		</div>
-<!-- /HEADER -->
+	</div>
+	<!-- /HEADER -->
 
-<!-- CONTENEDOR GENERAL -->
+	<!-- CONTENEDOR GENERAL -->
 	
-		<div class="container-fluid">
-			<div class="row">
+	<div class="container-fluid">
+		<div class="row">
 
-	<!-- SIDEBAR - COLUMNA IZQUIERDA -->
-				<div class="sidebar col-sd-5 col-md-5 fixed-top">
-					<form class="form">
-						<img src="img/avatar/avatar3.png" class="form__profile">
-							<input type="file" class="form__file" name="">
-								<textarea class="form__text">
-							</textarea>
-						<button class="form__button">--->Monkea<---
+			<!-- SIDEBAR - COLUMNA IZQUIERDA -->
+			<div class="sidebar col-sd-5 col-md-5 fixed-top">
+				<form class="form" id="uploader">
+					<img src="img/avatar/avatar0.svg" class="form__profile" id="avatar">
+					<input type="file" class="form__file" id="photo-upload" name="">
+					<textarea class="form__text" id="text__box">
+					</textarea>
+					<button class="form__button">--->Monkea<---
 					</button>
 				</form>				
 			</div>
-	<!-- /SIDEBAR - COLUMNA IZQUIERDA -->
+			<!-- /SIDEBAR - COLUMNA IZQUIERDA -->
+		</div>		
 
-
-<!-- MAIN - COLUMNA DERECHA -->
-			<div class="main col-sd-7 col-md-7">
+		<!-- MAIN - COLUMNA DERECHA -->
+		<div class="container-fluid box">
+			<div class="row">
+				<div class="main col-sd-7 col-md-7">
 					<div class="box__profile col-md7">
 						<h2 class="box__name">
-							<img src="img/avatar/avatar3.png" class="box__avatar col-md-6">
-								<br class="box__avatar col-md-6">Monkyman:
-							</h2>
-								<p class="box__posteo col-md-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-							</p>
-								<i class="fas fa-heart box__heart">
-									<span> 0
-								</span>
-							</i>
-								<i class="fas fa-trash-alt box__trash">
-									<span> Borrar
-								</span>
-							</i>
-						</div>
+							<img src="img/avatar/avatar0.svg" class="box__avatar col-md-6">
+							<br class="box__avatar col-md-6">Monkyman:
+						</h2>
+						<p class="box__posteo col-md-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+						</p>
+						<i class="fas fa-heart box__heart">
+							<span> 0
+							</span>
+						</i>
+						<i class="fas fa-trash-alt box__trash">
+							<span> Borrar
+							</span>
+						</i>
 					</div>
-<!-- /MAIN - COLUMNA DERECHA -->
-
+				</div>
+				<!-- /MAIN - COLUMNA DERECHA -->
+			</div>
+			<!-- FIN ROW INICIAL -->
 
 
 			
-				</div>
-				<!-- FIN ROW INICIAL -->
-
-
-<!-- MAIN - COLUMNA DERECHA  COPIA 1-->
-			<div class="main col-sd-7 col-md-7">
-					<div class="box__profile col-md7">
-
-						<h2 class="box__name">
-							<img src="img/avatar/avatar3.png" class="box__avatar col-md-6">
-							<br class="box__avatar col-md-6">Monkyman:
-						</h2>
-							<p class="box__posteo col-md-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-						</p>
-							<i class="fas fa-heart box__heart"><span> 0</span></i>
-							<i class="fas fa-trash-alt box__trash"><span> Borrar</span></i>
-						</div>
-					</div>
-<!-- /MAIN - COLUMNA DERECHA  COPIA 1-->					
 
 
 
+		</div>  
+		<!-- FIN CONTAINER__FLUID INICIAL -->
 
-				</div>  
-				<!-- FIN CONTAINER__FLUID INICIAL -->
-
-<!-- MAIN - COLUMNA DERECHA  COPIA 2-->
-				<div class="main col-sd-7 col-md-7">
-					<div class="box__profile col-md7">
-
-						<h2 class="box__name">
-							<img src="img/avatar/avatar3.png" class="box__avatar col-md-6">
-							<br class="box__avatar col-md-6">Monkyman:
-						</h2>
-							<p class="box__posteo col-md-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-						</p>
-							<i class="fas fa-heart box__heart"><span> 0</span></i>
-							<i class="fas fa-trash-alt box__trash"><span> Borrar</span></i>
-						</div>
-					</div>
-<!-- /MAIN - COLUMNA DERECHA  COPIA 2-->
-
-
-
-
-				</div>
-
-			</div>
-
-		
+		<!-- MAIN - COLUMNA DERECHA  COPIA 2-->
 	
-</body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</html>
+		</div>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="lib/app.js"></script>
+	</body>
+
+
+	</html>
