@@ -99,7 +99,7 @@ body{
 	padding-top: 6.55rem;
 	margin-left: 33rem;
 	float: left;
-	height: 330px;
+	height: 530px;
 
 }
 
@@ -153,6 +153,7 @@ body{
 	margin-left: 18rem;
 	padding-right: 0;
 	color: #464140;
+	cursor: pointer;
 	
 }
 
@@ -167,6 +168,7 @@ body{
 	font-size: 1.15rem;
 	color: #464140;
 	padding-bottom: 1rem;
+	cursor: pointer;
 
 }
 
